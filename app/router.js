@@ -27,6 +27,11 @@ App.ContributorRoute = Ember.Route.extend({
   },
   renderTemplates: function(){
     this.render("contributor");
+  },
+  events:{
+    showContributorList:function(route, context){
+      route.transitionTo("contributorList");
+    }
   }
 });
 
