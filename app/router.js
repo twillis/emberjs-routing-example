@@ -2,10 +2,7 @@
 App.ContributorListRoute = Ember.Route.extend({
   model: function(){
     console.log("model...");
-    return [{login:"foo", 
-             contributions:"i wrote it"},
-            {login:"bar", 
-             contributions:"i broke it"}];
+    return App.Contributor.list();
   },
   renderTemplates: function(){
     console.log("renderTemplate...");

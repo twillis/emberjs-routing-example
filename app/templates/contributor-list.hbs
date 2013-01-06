@@ -1,4 +1,4 @@
 <!--list of contributors will go here -->
       {{#each person in content}}
-        <li><a {{action showContributor person }} href="#">{{person.login}}</a></li>
+        <li><a {{action showContributor person }} href="#"><img {{bindAttr src="person.avatar_url"}}>{{person.login}}</a></li>
       {{/each}}
