@@ -1,0 +1,21 @@
+{
+  "name": "routing-example",
+  "version": "0.0.0",
+  "description": "'routing Ember example with buildtools and tests'",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": "",
+  "author": "Tom Willis <tom@batterii.com>",
+  "license": "BSD",
+  "devDependencies": {
+    "grunt": "git://github.com/gruntjs/grunt.git",
+    "grunt-neuter": "~0.2.0",
+    "grunt-contrib-uglify": "~0.1.0",
+    "grunt-contrib-jshint": "~0.1.0",
+    "grunt-contrib-qunit": "~0.1.0",
+    "grunt-ember-templates": "~0.4.1",
+    "grunt-contrib-watch": "~0.1.4"
+  }
+}
