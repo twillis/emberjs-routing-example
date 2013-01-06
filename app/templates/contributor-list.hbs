@@ -1,0 +1,4 @@
+<!--list of contributors will go here -->
+      {{#each person in content}}
+        <li><a {{action showContributor person }} href="#">{{person.login}}</a></li>
+      {{/each}}
